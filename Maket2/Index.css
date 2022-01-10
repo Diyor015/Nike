@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}header{
+   background: url(./img/Nike_cover.jpg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   margin-bottom: 88px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    align-items: center;
+}
+.title ul{
+    display: flex;
+    margin-left: 30px;
+}
+.title ul li{
+    list-style: none;
+    padding: 20px 24px; 
+    transition: 1s;
+}
+.title ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 1s;
+}
+.title ul li a:hover{
+    color: #fff;
+}
+.title ul li:hover{
+    background-color: gray;
+}
+.title_bottom{
+    width: 1050px;
+    margin: auto;
+}
+.title_bottom h1{
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+    padding-top: 180px;
+}
+.title_bottom .text{
+font-size: 20px;
+color: #fff;
+padding-bottom: 290px;
+}
+.title_bottom .text span{
+    color: red;
+    font-weight: 900;
+    font-size: 20px;
+}
+section{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 129px;
+} 
+section .left p{
+    padding-right: 55px;
+    padding-top: 10px;
+    word-wrap: break-word;
+    font-size: 1.1em;
+}
+section .left img{
+padding-right: 50px;
+padding-bottom: 30px;
+}
+section .right .one{
+    width: 540px;
+    height: 140px;
+    border: solid #aeaeae 4px;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 14px;
+}
+section .right .two{
+    width: 540px;
+    height: 150px;
+    border: solid  #f0efb6 4px;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 14px;
+}
+section .right p{
+    padding-left: 30px;
+    word-wrap: break-word;
+    font-size: 1.1em;
+}
+section .right h2{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.about{
+    padding-top: 108px;
+    border: solid #f9f9f9 5px;
+    background-color: #eee9e9;
+}
+.about ul{
+    display: flex;
+    margin-left: 30px;
+}
+.about ul li{
+    list-style: none;
+    padding: 20px 24px; 
+    transition: 1s;
+}
+.about ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 1s;
+}
+.about ul li a:hover{
+    color:red;
+}
+.about .us{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about .logo{
+    padding-right: 70px;
+} .about .menu{
+    display: flex;
+    justify-content: center;
+}
